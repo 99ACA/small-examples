@@ -1,5 +1,5 @@
 import { IncomingRequest } from "./schema";
-import { validator } from "./validator";
+import { validator } from "./provider/validator";
 import { v4 as uuidv4 } from 'uuid'
 
 
