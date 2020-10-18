@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "ES2017", /* Specify ECMAScript target version: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', 'ES2018', 'ES2019' or 'ESNEXT'. */
+    "module": "commonjs", /* Specify module code generation: 'none', 'commonjs', 'amd', 'system', 'umd', 'es2015', or 'ESNext'. */
+    "lib": [
+      "es2017",
+      "dom"
+    ], /* Specify library files to be included in the compilation. */
+    "declaration": false, /* Raise error on expressions and declarations with an implied 'any' type. */
+    "noEmitOnError": true, /* [Default - false] Do not emit outputs if any errors were reported. */
+    "noLib": false, /* [Default - false] Do not include the default library file (lib.d.ts). */
+    "outDir": "./dist", /* Redirect output structure to the directory. */
+    "removeComments": true, /* Do not emit comments to output. */
+    /* Strict Type-Checking Options */
+    "noImplicitAny": false,
+    /* Experimental Options */
+    "experimentalDecorators": true, /* Enables experimental support for ES7 decorators. */
+    "emitDecoratorMetadata": true, /* Enables experimental support for emitting type metadata for decorators. */
+    /* Source Map Options */
+    "sourceMap": true,
+    /* Module Resolution Options */
+    "baseUrl": "./",
+    "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not affect code emit, just typechecking. */
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}
